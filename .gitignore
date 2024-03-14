@@ -1,0 +1,32 @@
+# Игнорировать файлы Python bytecode
+*.pyc
+
+# Игнорировать файлы локальной среды Python
+venv/
+env/
+
+# Игнорировать файлы IDE и редакторов кода
+.idea/
+*.iml  # Игнорировать файлы проекта IntelliJ IDEA
+.vscode/
+
+# Игнорировать файлы кэша и временные файлы
+__pycache__/
+.cache/
+*.log
+*.swp
+*.swo
+
+# Игнорировать файлы сборки и временные файлы проекта
+build/
+dist/
+*.egg-info/
+*.egg
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Игнорировать XML файлы
+*.xml
+4_language_barier.py
